@@ -9,13 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
 </head>
 
 <body>
-    <div>
+    <!-- hero -->
+    <div style="background-image: url('images/hero.webp');" class="bg-brand-dark px-7 pt-7 pb-48 flex flex-col gap-28 bg-center bg-cover">
+        <!--header-->
+        <div class="flex flex-row justify-between items-center">
+            <img class="w-[135px]" src="images/logo.svg" alt="logo" />
+            <div flex flex-row gap-3>
+                <a href="#" class="w-[30px] h-[30px] inline-block"><iconify-icon class="text-white border border-white p-1.5 text-base rounded-full" icon="ic:home"></iconify-icon></a>
+                <a href="#" class="w-[30px] h-[30px] inline-block"><iconify-icon class="text-white border border-white p-1.5 text-base rounded-full" icon="ic:outline-shopping-cart"></iconify-icon></a>
+                <a href="#" class="w-[30px] h-[30px] inline-block"><iconify-icon class="text-white border border-white p-1.5 text-base rounded-full" icon="ic:baseline-search"></iconify-icon></a>
+            </div>
+        </div>
 
-
-        <div></div>
+        <!--hero content-->
+        <div class="flex flex-col items-center gap-5">
+            <h1 class="font-sans text-white uppercase text-3xl font-bold text-center">Shop Luxury Sofas</h1>
+            <p class="font-sans text-brand-light text-base font-normal text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.</p>
+            <a href=""><button class="bg-brand-nude py-2 px-5 font-sans text-white font-normal uppercase text-base rounded-lg">visit shop</button></a>
+        </div>
     </div>
 </body>
 
